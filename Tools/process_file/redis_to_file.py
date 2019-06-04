@@ -59,3 +59,4 @@ def all_data(redis_host, redis_port, redis_db, password, redis_key, file_name, f
 if __name__ == "__main__":
     # 导出数据
     # all_data('host', 6379, 0, 'password', 'redis_key', 'file_name', 'file_type')
+    all_data('40.73.33.249', 6379, 0, 'pengfeiQDS', 'Boss:items', 'Boss', 'txt')

@@ -10,7 +10,7 @@ mysql_db = MySQLDatabase('database', host='your host', port=3306, user='user_nam
 
 # 使用数据库URL连接数据库
 # mysql_db = connect('mysql://user:passwd@ip:port/my_db')
-mysql_db = connect('mysql://reptile:QDsmZw@0422&@40.73.37.111:22822/tengxun_all')
+mysql_db = connect('')
 
 
 class BaseModel(Model):

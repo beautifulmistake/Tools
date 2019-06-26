@@ -6,7 +6,7 @@ from twisted.python import threadpool
 
 
 # mysql_db = connect('mysql://user:passwd@ip:port/my_db')
-mysql_db = connect('mysql://root:Mengzhiwang&2017@59.110.41.49:22822/db_brand')
+mysql_db = connect('')
 redis_client = redis_client.RedisClient(settings.REDIS_PARAMS).redis_client
 
 

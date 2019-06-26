@@ -2,12 +2,10 @@
 使用 RSA 公钥对 字符串数据进行加密
 """
 import base64
-
-
-# 公钥处理方法
 import rsa
 
 
+# 公钥处理方法
 def str2key(pubKey):
     """
     对公钥进行处理
